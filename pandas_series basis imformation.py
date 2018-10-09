@@ -31,3 +31,7 @@ print(b)
 inde = ['a', 'Banana', 'Apple']
 c = pd.Series(dic, index=inde)
 print(c)
+
+# 还可以打印时间(年-月-日)
+dates = pd.date_range('20181009', periods=5)
+print(dates)
