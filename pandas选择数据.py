@@ -41,6 +41,5 @@ print(df.iloc[[0, 2, 3, 5], [0, 3]])
 # 可以用一些逻辑运算来筛选
 # 虽然我们只对某一列进行了运算筛选，
 # 但是pandas还是会筛选掉整个DataFrame中满足条件的东西
-df
 print(df[df.B > 10])
 print(df[df.A < 5])
