@@ -5,7 +5,7 @@ dates = pd.date_range('20181010', periods=6)
 df = pd.DataFrame(np.arange(24).reshape((6, 4)),
                   index=dates,
                   columns=['A', 'B', 'C', 'D'])
-df
+
 # 修改df里面的值
 # 我们可以用iloc先定位之后修改被定位的目标的值
 df.iloc[2, 1] = 11
